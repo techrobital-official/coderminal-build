@@ -1,0 +1,20 @@
+{
+  "name": "coderminal_ide",
+  "version": "1.0.0",
+  "description": "Coderminal is a modern developer vibe coding platform offering a powerful web, IDE, CLI, and a VS Code Extension. It simplifies coding, collaboration, and deployment with, fast, scalable tools, designed for efficiency and seamless development workflows.",
+  "main": "main.js",
+  "author": "Techrobital",
+  "license": "TCL",
+
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "build": "electron-builder"
+  },
+  
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0",
+    "typescript": "^5.0.0"
+  }
+}
